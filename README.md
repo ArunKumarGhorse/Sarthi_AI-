@@ -6,7 +6,7 @@ The chatbot can generate AI responses using API integration and has a simple mod
 ## Screenshots
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/bc7b1df4-b970-4718-956b-8a0562175090" width="45%" height="185px" />
+  <img src="https://github.com/user-attachments/assets/bc7b1df4-b970-4718-956b-8a0562175090" width="45%" height="200px" />
   <img src="https://github.com/user-attachments/assets/0acbb517-fc25-4ab1-aa6c-09becd20afa5" width="45%" height="200px" />
 </p>
 
