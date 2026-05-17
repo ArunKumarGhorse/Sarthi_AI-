@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sarthi AI</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+
+    <div class="chat-container">
+
+
+
+        <div class="sidebar">
+
+            <div class="logo">
+                <div class="logo-circle">
+                    <i class="fa-solid fa-robot"></i>
+                </div>
+
+                <div>
+                    <h2>Sarthi AI</h2>
+                    <p>Your AI Companion</p>
+                </div>
+            </div>
+
+            <button class="new-chat">
+                <i class="fa-solid fa-plus"></i>
+                New Chat
+            </button>
+
+            <div class="recent">
+                <p class="title">Recent Chats</p>
+                <div id="recent-list"></div>
+            </div>
+
+        </div>
+
+        <div class="main-chat">
+
+            <div class="topbar">
+                <div>
+                    <h2>Sarthi AI</h2>
+                    <span>Online</span>
+                </div>
+
+                <div class="topbar-actions">
+                    <button id="theme-toggle" title="Toggle Dark/Light Mode">
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+                    <button id="clear-chat" title="Clear All Chats">
+                        <i class="fa-solid fa-trash"></i>
+                    </button>
+                    <button id="logout-btn" title="Logout">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="chat-box" id="chat-box">
+
+                <div class="bot-chat">
+                    Hello -<br>
+                    I'm Sarthi AI. Ask anything.
+                </div>
+
+            </div>
+
+
+            <div class="input-area">
+
+                <input type="text" id="user-input" placeholder="Ask anything..." />
+
+                <button id="send-btn">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
