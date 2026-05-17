@@ -2,7 +2,7 @@ if (localStorage.getItem('isAuthenticated') !== 'true') {
     window.location.href = 'auth.html';
 }
 
-const API_KEY = "AIzaSyBbMk5HN-JvubBa86o84p0DZ9MRFKuBXJc";
+const API_KEY = ".";
 
 const fallbackResponses = [
     {
